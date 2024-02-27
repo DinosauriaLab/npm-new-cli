@@ -1,0 +1,17 @@
+# Using clang-format v18.0.0
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# Reference link: https://github.com/sevanetrebchenko/clang-format-c
+# { BasedOnStyle: Google, AlignArrayOfStructures: Left, AlignConsecutiveAssignments: AcrossComments, AlignConsecutiveBitFields: AcrossComments, AlignConsecutiveMacros: AcrossEmptyLinesAndComments, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, IndentWidth: 4, ReflowComments: true }
+
+---
+Language: Cpp
+BasedOnStyle: Google
+AlignArrayOfStructures: Left
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignConsecutiveMacros: AcrossEmptyLinesAndComments
+AllowShortFunctionsOnASingleLine: None
+ColumnLimit: 0
+IndentWidth: 4
+ReflowComments: true
+---
